@@ -260,22 +260,43 @@
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EN8-4O-IC5">
+                                <rect key="frame" x="261" y="137" width="100" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="eXM-Xe-OJJ"/>
+                                    <constraint firstAttribute="height" constant="19" id="uQh-ia-S8h"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWC-2a-6md"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EN8-4O-IC5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="125" id="6OD-7T-bXC"/>
+                            <constraint firstItem="EN8-4O-IC5" firstAttribute="top" secondItem="0vM-EP-wK3" secondAttribute="bottom" constant="17" id="9An-EQ-eEe"/>
                             <constraint firstItem="0vM-EP-wK3" firstAttribute="top" secondItem="T8b-90-5aJ" secondAttribute="top" constant="22" id="CdU-tW-eTe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EN8-4O-IC5" secondAttribute="trailing" constant="219" id="EoI-Uu-srT"/>
                             <constraint firstItem="T8b-90-5aJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nmj-G8-xmg"/>
                             <constraint firstItem="76m-2L-crl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q1Z-co-aKX"/>
                             <constraint firstItem="76m-2L-crl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="S8U-Wv-6lW"/>
                             <constraint firstItem="T8b-90-5aJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SVs-El-29x"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="76m-2L-crl" secondAttribute="bottom" id="Vdw-Fw-rh5"/>
                             <constraint firstItem="2ZJ-tt-1ra" firstAttribute="centerX" secondItem="T8b-90-5aJ" secondAttribute="centerX" id="Xpx-Pf-lh1"/>
+                            <constraint firstItem="EN8-4O-IC5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="241" id="aPs-HA-2Q5"/>
                             <constraint firstItem="2ZJ-tt-1ra" firstAttribute="centerY" secondItem="T8b-90-5aJ" secondAttribute="centerY" constant="40" id="c1o-Fc-vGM"/>
                             <constraint firstAttribute="trailing" secondItem="76m-2L-crl" secondAttribute="trailing" id="pCF-is-NtW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SPF-iM-oyh" secondAttribute="bottom" id="riC-QN-E8K"/>
                             <constraint firstItem="SPF-iM-oyh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="uay-kJ-SdW"/>
                             <constraint firstItem="T8b-90-5aJ" firstAttribute="trailing" secondItem="0vM-EP-wK3" secondAttribute="trailing" constant="60" id="yjV-6g-xZu"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EoI-Uu-srT"/>
+                                <exclude reference="aPs-HA-2Q5"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="outputLbl" destination="0vM-EP-wK3" id="L9V-uj-0QF"/>
@@ -299,6 +320,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
