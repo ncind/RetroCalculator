@@ -13,6 +13,7 @@
 		4946E32A1CB6178A00C92688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4946E3291CB6178A00C92688 /* Assets.xcassets */; };
 		4946E32D1CB6178A00C92688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4946E32B1CB6178A00C92688 /* LaunchScreen.storyboard */; };
 		4946E3351CB63A2900C92688 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4946E3341CB63A2900C92688 /* Minecraft.ttf */; };
+		494C563C1CB8CD0C008F8128 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 494C563B1CB8CD0C008F8128 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4946E32C1CB6178A00C92688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4946E32E1CB6178A00C92688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4946E3341CB63A2900C92688 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		494C563B1CB8CD0C008F8128 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				4946E3341CB63A2900C92688 /* Minecraft.ttf */,
+				494C563B1CB8CD0C008F8128 /* btn.wav */,
 				4946E3221CB6178900C92688 /* AppDelegate.swift */,
 				4946E3241CB6178900C92688 /* ViewController.swift */,
 				4946E3261CB6178A00C92688 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494C563C1CB8CD0C008F8128 /* btn.wav in Resources */,
 				4946E32D1CB6178A00C92688 /* LaunchScreen.storyboard in Resources */,
 				4946E32A1CB6178A00C92688 /* Assets.xcassets in Resources */,
 				4946E3351CB63A2900C92688 /* Minecraft.ttf in Resources */,
@@ -290,6 +294,7 @@
 				4946E3331CB6178A00C92688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
